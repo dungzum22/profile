@@ -64,12 +64,12 @@ export default function Footer() {
             </div>
 
             {/* Copyright section */}
-            <p className="text-xs sm:text-sm">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p className="text-xs sm:text-sm">© {new Date().getFullYear()} Le Tien Dung. All rights reserved.</p>
 
             {/* Display version & Link to GitHub Repo */}
             {/* You can update or remove this for your own template */}
             <p className="text-xs sm:text-sm">
-                <Link href={`https://github.com/alemoraru/nextjs-portofolio-website/releases/tag/v${appVersion}`}
+                <Link href={``}
                       rel="noopener noreferrer">
                     <span
                         className="font-semibold hover:text-blue-500 transition-colors duration-200"
@@ -78,11 +78,11 @@ export default function Footer() {
                     </span>
                 </Link>
                 &nbsp;built by&nbsp;
-                <Link href="https://github.com/alemoraru" rel="noopener noreferrer">
+                <Link href="https://github.com/dungzum22" rel="noopener noreferrer">
                     <span
                         className="font-semibold hover:text-blue-500 transition-colors duration-200"
                     >
-                        @alemoraru
+                        @dungzum22
                     </span>
                 </Link>
             </p>

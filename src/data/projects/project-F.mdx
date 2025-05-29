@@ -1,42 +1,44 @@
 ---
-title: "Project SmartHive"
+title: "Unit Testing with Mocha, Chai, and Sinon"
 teamSize: 5
-role: "IoT Engineer"
-description: "Project SmartHive is a smart home automation system that enhances convenience, security, and energy efficiency."
-duration: "02/2020–08/2020"
+role: "BEE Developer"
+description: "A project focused on implementing unit tests for a Pythagorean theorem calculator using Mocha, Chai, and Sinon to ensure code reliability and accuracy."
+duration: "10/2024–12/2024"
 techStack:
-  - Arduino
-  - Raspberry Pi
-  - Python
-  - MQTT
-  - React
-githubUrl: "https://github.com/project-SmartHive"
+  - JavaScript
+  - Mocha
+  - Chai
+  - Istanbul (nyc)
+  - Codecov
+githubUrl: "https://github.com/ShyNing76/UnitTest_Mocha_Chai_Sinon"
 ---
 
 # Introduction
 
-Project SmartHive integrates IoT devices to create a connected home ecosystem. It allows users to control and monitor their homes remotely through a mobile app.
-
+This project centers on developing and testing a utility that calculates the hypotenuse of a right-angled triangle using the Pythagorean theorem. The primary goal is to ensure the correctness and robustness of the calculation logic through comprehensive unit testing.
 ## Key Features
 
-- **Device Control**: Control lights, appliances, and thermostats remotely.
-- **Energy Monitoring**: Track energy consumption and optimize usage.
-- **Security**: Real-time alerts for unauthorized access and live camera feeds.
-- **Voice Commands**: Integration with voice assistants like Alexa and Google Assistant.
+- **Hypotenuse Calculation**: Computes the hypotenuse given the lengths of the other two sides.
+- **Input Validation**: Ensures that inputs are positive numbers.
+- **Error Handling**: Provides informative errors for invalid inputs.
+- **Comprehensive Testing**: Implements unit tests to cover various scenarios and edge cases.
 
 ## Technical Insights
 
-- **IoT Devices**: Used Arduino and Raspberry Pi for device control and data collection.
-- **Communication Protocol**: Implemented MQTT for efficient communication between devices.
-- **Backend**: Developed a Python-based server for processing and storing data.
-- **Frontend**: Built a React app for user interaction and control.
+- **Testing Framework**: Utilizes Mocha as the test runner for structuring and executing tests.
+- **Assertion Library**: Employs Chai for expressive assertions to validate test outcomes.
+- **Mocking and Spying**: Uses Sinon to create mocks and spies, facilitating the testing of functions in isolation.
+- **Code Coverage**: Integrates Istanbul (nyc) to measure test coverage and identify untested code paths.
+- **Continuous Integration**: Sets up workflows to automatically run tests and report coverage using Codecov.
+
 
 ## Challenges and Solutions
 
-- **Interoperability**: Designed a modular system to support a wide range of devices.
-- **Latency**: Optimized communication protocols to reduce response times.
-- **Security**: Implemented encryption and secure authentication to protect user data.
+- **Ensuring Accurate Calculations**: Developed precise test cases to validate the correctness of the hypotenuse calculations.
+- **Handling Invalid Inputs**: Implemented input checks and corresponding error messages to guide users.
+- **Maintaining High Test Coverage**: Regularly monitored coverage reportss to identify and address gaps in testing.
+
 
 ## Outcome
 
-Project SmartHive was deployed in a model home and demonstrated its potential to simplify daily life. It received interest from smart home enthusiasts and IoT startups.
+The project successfully demonstrates the implementation of unit tests for a mathematical utility, emphasizing the importance of testing in software development. It serves as a reference for best practices in writing and maintaining tests using Mocha, Chai, and Sinon.
